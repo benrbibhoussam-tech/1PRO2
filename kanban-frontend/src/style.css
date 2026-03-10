@@ -1,0 +1,27 @@
+.col-title-input {
+    background: #0f172a;
+    border: 2px solid #10b981;
+    color: rgb(247, 0, 0);
+    font-size: 1.1rem;
+    font-weight: bold;
+    width: 80%;
+    outline: #94a3b8;
+}
+
+.col-title-input:focus {
+    border-bottom: 2px solid var(--accent-color);
+}
+
+.btns-top {
+    display: flex;
+    gap: 10px;
+}
+
+.logout-btn {
+    background: var(--danger);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
